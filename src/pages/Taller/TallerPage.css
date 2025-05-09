@@ -1,0 +1,117 @@
+.publicacion-card {
+  background-color: #0ea5e9; /* Fondo rojo para las tarjetas */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+[data-theme="dark"] .publicacion-card {
+  background-color: #059669; /* Fondo azul para las tarjetas en tema oscuro */
+}
+
+.publicacion-card:hover {
+  transform: scale(1.05);
+}
+
+.publicacion-details {
+  margin-top: 1rem;
+}
+
+.publicacion-titulo {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.publicacion-fecha,
+.publicacion-curso, 
+.publicacion-texto{
+  margin: 0.5rem 0;
+}
+
+.inactive {
+  opacity: 0.5;
+}
+
+.publicacion-page-container {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.publicacion-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 100%;
+  height: 100vh;
+}
+
+.publicaciones-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.publicaciones-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.add-publicacion-button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: var(--primary-color, #007bff);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-publicacion-button:hover {
+  background-color: var(--primary-color-hover, #0056b3);
+}
+
+.publicaciones-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.publicaciones-card-wrapper {
+  position: relative;
+}
+
+.report-button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.report-button:hover {
+  background-color: darkorange;
+}
+
+.search-bar-client {
+  max-width: 500px;
+  margin: 20px;
+  border: 2px solid #e0e0e0; 
+  border-radius: 5px; 
+  padding: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease
+}
+.search-bar-client::placeholder {
+  color: rgb(6, 0, 26); /* o usa un color personalizado como #800080 */
+  opacity: 1; /* para que se vea bien en todos los navegadores */
+}
