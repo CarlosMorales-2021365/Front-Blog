@@ -14,6 +14,14 @@
   transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
+.publicacionPractica-card {
+  background-color: #dee90e;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
 .publicacion-card:hover {
   transform: scale(1.05);
 }
