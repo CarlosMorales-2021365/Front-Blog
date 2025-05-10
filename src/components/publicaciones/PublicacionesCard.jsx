@@ -10,12 +10,12 @@ const PublicacionesCard = ({
     estado
 }) => {
     return (
-        <div className={`piblicacion-card ${ estado ? '' : 'inactive'}`}>
-            <div className="Publicacion-detalles">
+        <div className={`publicacion-card ${ estado ? '' : 'inactive'}`}>
+            <div className="publicacion-details">
                 <h3 className="publicacion-titulo">Titulo: {titulo}</h3>
                 <p className="publicaion-fecha">{fecha.toLocaleDateString()}</p>
                 <p className="publicacion-curso">{curso}</p>
-                <p className="publicacion-texto">{texto}</p>
+
             </div>
         </div>
     );

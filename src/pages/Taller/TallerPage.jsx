@@ -47,7 +47,7 @@ export const TallerPage = () => {
             <p className="error-message">{errorMessage}</p>
           ) : (
             filteredPublicaciones.map((publicacion) => (
-              <Link to={`/publicacion/${publicacion._id}`} key={publicacion._id}>
+              <Link className='selecionar-publicacion' to={`/publicacion/${publicacion._id}`} key={publicacion._id}>
               <PublicacionesCard
                 key={publicacion._id}
                 id={publicacion._id}
