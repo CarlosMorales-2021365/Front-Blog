@@ -1,4 +1,4 @@
-.publicacion-card {
+.publicacionTec-card {
   background-color: #0ea5e9;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -6,26 +6,26 @@
   transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-.publicacion-card:hover {
+.publicacionTec-card:hover {
   transform: scale(1.05);
 }
 
-.publicacion-details {
+.publicacionTec-details {
   margin-top: 1rem;
 }
 
-.publicacion-titulo {
+.publicacionTec-titulo {
   font-size: 1.2rem;
   font-weight: bold;
 }
 
-.publicacion-fecha,
-.publicacion-curso, 
-.publicacion-texto{
+.publicacionTec-fecha,
+.publicacionTec-curso, 
+.publicacionTec-texto{
   margin: 0.5rem 0;
 }
 
-.selecionar-publicacion{
+.selecionar-publicacionTec{
   color: inherit;        
   text-decoration: none;
 }
@@ -34,7 +34,7 @@
   opacity: 0.5;
 }
 
-.taller-page-container {
+.tecnologia-page-container {
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -43,7 +43,7 @@
   box-sizing: border-box;
 }
 
-.publicacion-container {
+.publicacionTec-container {
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -51,27 +51,28 @@
   height: 100vh;
 }
 
-.teller-header {
+.tecnologia-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1rem;
 }
 
-.taller-title {
+.tecnologia-title {
   font-size: 2rem;
   font-weight: bold;
 }
 
-.publicaciones-grid {
+.publicacionesTec-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 1rem;
 }
 
-.publicaciones-card-wrapper {
+.publicacionesTec-card-wrapper {
   position: relative;
 }
+
 .search-bar-client::placeholder {
   color: rgb(6, 0, 26); /* o usa un color personalizado como #800080 */
   opacity: 1; /* para que se vea bien en todos los navegadores */

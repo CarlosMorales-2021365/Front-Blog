@@ -7,8 +7,8 @@ import "./TallerPage.css";
 
 export const TallerPage = () => {
   const [publicaciones, setPublicaciones] = useState([]);
-    const [errorMessage, setErrorMessage] = useState("");
-    const [searchTerm, setSearchTerm] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
+  const [searchTerm, setSearchTerm] = useState("");
 
     useEffect(()=> {
       const fetchPublicaciones = async () => {
