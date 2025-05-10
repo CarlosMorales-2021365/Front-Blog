@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import PublicacionesCard from '../../components/publicaciones/PublicacionesCard'
+import PublicacionesTecCard from '../../components/publicaciones/PublicacionesTecCard'
 import { listarPublicaciones } from '../../services/api'
 import { Navbar } from '../../components/navbar/Navbar'
 import { Link } from 'react-router-dom'
-import "./TecnologiaPage.css"
+import "../Taller/TallerPage.css";
 
 export const TecnologiaPage = () => {
   const [publicaciones, setPublicaciones] = useState([]);
@@ -47,7 +47,7 @@ export const TecnologiaPage = () => {
              ) : (
                filteredPublicaciones.map((publicacion) => (
                  <Link className='selecionar-publicacion' to={`/publicacion/${publicacion._id}`} key={publicacion._id}>
-                 <PublicacionesCard
+                 <PublicacionesTecCard
                    key={publicacion._id}
                    id={publicacion._id}
                    titulo={publicacion.titulo}
