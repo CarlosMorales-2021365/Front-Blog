@@ -32,3 +32,28 @@ export const listarPublicaciones = async () => {
         };
     }
 };
+
+export const listarComentarios = async () => {
+    try {
+        const response = await apiBlog.get('comentarios/listarComentarios'); 
+        return {
+            error: false,
+            data: response.data,
+        };
+    } catch (error) {
+        return {
+            error: true,
+            message: error.response?.data || "Error desconocido",
+        };
+    }
+};
+
+
+export const agregarComentatios = async (data) => {
+  try {
+    const response = await apiBlog.post("/comentarios/crearComentarios", data);
+    return response.data;
+  } catch (error) {
+    return { error: true, message: error.message };
+  }
+};
