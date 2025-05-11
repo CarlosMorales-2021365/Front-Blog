@@ -2,7 +2,7 @@
     font-family: Arial, sans-serif;
     text-align: center;
     padding: 12%;
-    background-color: #f0f8ff;
+    background-color: #96ccff;
 }
 
 .home-title {
@@ -25,19 +25,45 @@
     gap: 10px; 
 }
 
-.home-buttons button {
+.home-buttons1 {
     margin: 10px;
     padding: 10px 15px;
     font-size: 1rem; 
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    background-color: #007bff;
-    color: white;
+    background-color: #edcb65;
+    color: rgb(0, 0, 0);
+    transition: background-color 0.3s;
+    width: 150px; 
+}
+
+.home-buttons2 {
+    margin: 10px;
+    padding: 10px 15px;
+    font-size: 1rem; 
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #aa56da;
+    color: rgb(0, 0, 0);
+    transition: background-color 0.3s;
+    width: 150px; 
+}
+
+.home-buttons3 {
+    margin: 10px;
+    padding: 10px 15px;
+    font-size: 1rem; 
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #3392ff;
+    color: rgb(0, 0, 0);
     transition: background-color 0.3s;
     width: 150px; 
 }
 
 .home-buttons button:hover {
-    background-color: #0056b3;
+    background-color: #7bff2f;
 }
