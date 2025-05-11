@@ -39,7 +39,7 @@ export const TecnologiaPage = () => {
          <Navbar />
          <div className="taller-page-container">
            <div className="taller-header">
-             <h1 className="taller-title">Publicaciones de Taller</h1>
+             <h1 className="taller-title">Publicaciones de Tecnologia</h1>
            </div>
            <div className="publicaciones-grid">
              {errorMessage ? (

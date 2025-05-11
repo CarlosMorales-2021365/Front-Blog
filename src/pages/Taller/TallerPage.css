@@ -1,5 +1,5 @@
 .publicacion-card {
-  background-color: #0ea5e9;
+  background-color: #edcb65;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 1rem;
@@ -7,7 +7,15 @@
 }
 
 .publicacionTec-card {
-  background-color: #2fe90e;
+  background-color: #aa56da;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.publicacionPractica-card {
+  background-color: #3392ff;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 1rem;

@@ -12,13 +12,13 @@ export const Home = () => {
         <h2 className="home-subtitle">Ingresa alguna de las clases para poder ver las publicaciones</h2>
         <div className="home-buttons">
             <Link to="/Taller">
-                <button>Taller</button>
+                <button className='home-buttons1 '>Taller</button>
             </Link>
             <Link to="/Tecnologia">
-                <button>Tecnología</button>
+                <button className='home-buttons2'>Tecnología</button>
             </Link>
             <Link to="/Practica">
-                <button>Práctica Supervisada</button>
+                <button className='home-buttons3'>Práctica Supervisada</button>
             </Link>
         </div>
     </div>
